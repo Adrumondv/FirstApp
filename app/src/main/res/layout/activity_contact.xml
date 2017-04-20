@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alexanderdrumond.aboutme.ContactActivity">
+    
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/PaginaWeb"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Página Web"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/Telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefono"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"/>
+
+    <fragment
+        android:name="com.example.alexanderdrumond.aboutme.EmailFragment"
+        android:id="@+id/emailFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
